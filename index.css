@@ -1,0 +1,125 @@
+html { height: 100%; }
+body {
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #fff;
+}
+
+#disclaimer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+
+div#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.countryFlag{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#countryOne{
+    margin-right: 0.5em;
+}
+
+#countryTwo{
+    margin-left: 0.5em;
+}
+
+#targetSumBlock {
+    height: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #111;
+    border-style: dashed;
+    border-width: 0.1em;
+}
+
+#currSumBlock{
+    height: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #111;
+    border-style: dashed;
+    border-width: 0.1em;
+}
+
+.countryFlag {
+    border: #111;
+    border-style: solid;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #111;
+    height: auto;
+    padding-top: 1em;
+    color: #fff;
+}
+
+.footer-link{
+    color: white;
+}
+
+.currency {
+    font-style: italic;
+}
+
+.country {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 3rem;
+    padding-bottom: 0.5rem;
+}
